@@ -4,7 +4,7 @@ Feature: LoginPage
   Scenario: Validating the url
     Given User is on the browser loginPage
     When User opens the LMS Website
-    Then User should see the Login page "Please login to LMS application"
+    Then User should see the Login page "LMS"
 
   @Sanity
   Scenario Outline: Validating the Login functionality with invalid password field

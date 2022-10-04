@@ -19,19 +19,19 @@ public class TitleStepDefs extends BaseClass{
 			this.testcontext = testcontext;
 		}
 	
-//		@Before
-//		public void initBrowser() throws Exception
-//		{
-//			System.out.println("Inside initBrowser");
-//			WebDriver driver = null;
-//			driver = launchBrowser();
-//				
-//			testcontext.setDriver(driver);
-//			
-////			testcontext.getDriver().get(prop.getProperty("baseUrl"));
-//			testcontext.InitializePageObject(testcontext.getDriver());
-//			
-//		}
+		@Before
+		public void initBrowser() throws Exception
+		{
+			System.out.println("Inside initBrowser");
+			WebDriver driver = null;
+			driver = launchBrowser();
+				
+			testcontext.setDriver(driver);
+			
+//			testcontext.getDriver().get(prop.getProperty("baseUrl"));
+			testcontext.InitializePageObject(testcontext.getDriver());
+			
+		}
 	
 		
 		@Given("User is on the browser")

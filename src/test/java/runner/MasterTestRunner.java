@@ -35,14 +35,14 @@ import io.cucumber.testng.CucumberOptions;
 
 //@Test
 @CucumberOptions(
-		features = "src/test/resources/features", 
+		features = {"src/test/resources/features/LogInPagefeatures","src/test/resources/features/HomePagefeatures"},
 		glue = {"LogInPageStepDefinitions"
 				,"homePageStepDefinitions"
-				,"ProgramPageStepDefinitions"
-				,"BatchPageStepDefinitions"
-				,"ManageUserStepDefinitions"
-				, "UserDetailsStepDefinitions"
-				,"AssignmentPageStepDefinitions"
+				//,"ProgramPageStepDefinitions"
+//				,"BatchPageStepDefinitions"
+//				,"ManageUserStepDefinitions"
+//				, "UserDetailsStepDefinitions"
+//				,"AssignmentPageStepDefinitions"
 		},
 		//tags = "@tag1",
 //		//monochrome = true,

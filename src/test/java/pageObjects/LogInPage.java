@@ -39,7 +39,7 @@ public class LogInPage extends BaseClass {
         System.out.println("LMS HomePage after SignIn");
     }
     public String getTitleLoginPage() {
-        return action.getText(logInErrorMessage, driver);
+        return action.getTitle(driver);
     }
     public String getTitleLMSHomePage() {
         return action.getText(lmsHomePageTitle, driver);

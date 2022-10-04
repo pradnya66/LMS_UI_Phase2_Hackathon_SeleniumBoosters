@@ -37,7 +37,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features/LogInPagefeatures", 
 		glue = "LogInPageStepDefinitions", 
-		tags = "@Sanity",
+		//tags = "@Sanity",
 		plugin = { "pretty", "html:target/cucumber-reports.html","json:target/cucumber-html-reports/cucumber.json"
 				, "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 				 
